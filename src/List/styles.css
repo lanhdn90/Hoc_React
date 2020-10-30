@@ -1,0 +1,16 @@
+.list-container{
+    width: calc(100% - 250px);
+    /* background-color: black; */
+  
+  }
+  
+  .list-content{
+    padding: 16px;
+    /* background-color: yellow; */
+  
+  }
+  
+  .list-content h3{
+      text-align: center;
+      padding-bottom: 10px;
+  }

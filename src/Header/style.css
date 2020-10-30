@@ -1,0 +1,32 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 24px;
+    background-color: black;
+    color: white;
+  }
+
+  .header-menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    height: inherit;
+    /* canh giữa mà ko phụ thuộc các phần tư bên cạnh */
+    transform: translate(-50%,-50%);
+  }
+
+  .menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    height: inherit;
+    cursor: pointer;
+  }
+
+  .menu-item:hover{
+    background-color: #333333;
+  }

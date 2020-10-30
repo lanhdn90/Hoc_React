@@ -1,0 +1,23 @@
+.item{
+    /* Với giá trị position là relative thì chúng ta có thể di chuyển vị trí của nó 
+    xung quanh vị trí ban đầu, lấy vị trí ban đầu làm mốc */
+    
+    /* position: relative;
+    margin-bottom: 8px;
+    padding: 4px 8px; */
+    border: 1px solid rgba(250, 241, 241, 0.5);
+    box-shadow: 0 3px 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .abs-item{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+  } */
+
+  .item-active{
+    border: 1px solid gray;
+  }

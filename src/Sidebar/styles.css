@@ -1,0 +1,5 @@
+.sidebar-container{
+    width: 250px;
+    min-height: inherit;
+    background-color: gray;
+  }
